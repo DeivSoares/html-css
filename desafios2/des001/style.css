@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: Normal;
+}
+* {
+    margin: 0;
+}
+body{
+    margin: 0px;
+    background-color: #3CDA83;
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+}
+
+header{
+    color: white;
+    margin: 0px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #3CDA83, #1B5936);
+    box-shadow: 0px 16px 20px 0px #0000006e;
+}
+
+nav, .menu{
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    padding: 0px 0px 10px 19px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: white;
+    text-align: center;
+    border: 1px none black;
+    margin: 0px 200px 10px 200px;
+    padding: 20px 0px 20px 0px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.formatoM{
+    font-family: 'idroid';
+    color: #005e00;
+    text-align: left;
+    margin: 20px;
+}
+
+h2{
+    background-image: linear-gradient(to right, #007e002f, white);
+}
+
+.formatoM2{
+    text-indent: 30px;
+    text-align: justify;
+    margin: 0px 20px 0px 20px;
+}
+
+span, a{
+    color: #005e00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#video{
+    background-color: #1B5936;
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
+}
+
+section{
+    border: 1px none black;
+    margin: 15px 20px 15px 20px;
+    border-radius: 20px;
+}
+
+article{
+    background-color: #2FA866;
+    border: 1px none black;
+    border-radius: 20px 20px 20px 20px;
+}
+#extra{
+    padding-top: 10px;
+    text-indent: 10px;
+    text-align: left;
+    color: white;
+}
+
+#extra2{
+    padding-top: 15px;
+}
+
+.extra3{
+    margin: 10px 10px 0px 10px;
+    padding-bottom: 10px;
+}
+aside{
+    border: 1px none black;
+    background-color: #C5EBD6;
+    text-align: justify;
+    text-indent: 30px;
+    border-radius: 0px 0px 10px 10px;
+}
+ul{
+    display: inline-block;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    border: 1px none black;
+    background-color: #1B5936;
+}
+
+.rodapé{
+    color: white;
+    font-weight: bold;
+    background-attachment: fixed;
+}
+

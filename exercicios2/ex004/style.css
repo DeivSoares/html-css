@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /*Medidas Absolutas
+    cm, mm, in, px, pt ,pc
+    
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+    16px geralmente = 1em
+    */
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+    /*Varia de 100~900*/
+    /*lighter, normal, bold, bolder*/
+}
+span{
+    font-weight: bold;
+    font-style: italic;
+    /*ShortHand Font
+    - font-style -> font-weight -> font-size -> font-family*/
+    font: italic bold 1em Arial, Helvetica, sans-serif;
+}
